@@ -1,3 +1,11 @@
+# PhytoPulse
+
+天然产物与功能性原料信息站，基于下方 AIHOT 开源框架调整行业分类、公开论文信源和筛选提示词，沿用原有页面与采集流程。
+
+本地运行入口及监控说明见 [本地使用说明](本地使用说明.txt)。Windows 启动脚本随仓库保存；`.env`、数据库、Node.js/PostgreSQL 程序及运行日志保留在本机，不随 GitHub 同步。新环境请按 [部署文档](docs/deploy.md) 安装和初始化，不能直接复用现有电脑的数据环境。
+
+以下保留上游框架介绍和使用说明。
+
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="docs/assets/banner-dark.png">

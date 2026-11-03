@@ -18,10 +18,7 @@ export const SELECTION = {
    *   ecosystem 生态与基础设施：芯片与硬件、推理与云服务、模型托管、开发框架与工具链、安全研究厂商、工程与开发者博客
    *   leaderboard 评测榜单：给各家模型跑分、排名的评测机构
    */
-  classes: {
-    ecosystem: { label: "生态与基础设施", threshold: 70 },
-    leaderboard: { label: "评测榜单", threshold: 76 },
-  } as Record<string, { label: string; threshold: number }>,
+  classes: {} as Record<string, { label: string; threshold: number }>,
   /**
    * 没入选、但平均分高于这个数的资料，也用精选的写法（内容理解：标题、摘要、推荐理由）来写，
    * 其余用更便宜的“标题摘要翻译”。

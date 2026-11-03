@@ -7,6 +7,9 @@ dist/
 .DS_Store
 .data/
 
+# Local Windows runtime: only the explicitly tracked control scripts belong in Git.
+.runtime/
+
 # Web production build
 apps/web/build/
 apps/web/.react-router/
